@@ -1,0 +1,28 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.logo {
+  width: 45%;
+  margin: 30% 0 0 0;
+}
+.index-btn {
+  border-radius: 10px;
+  font-size: 12px;
+  width: 120px;
+}
+.index-user-btn {
+  margin: 30% 0 0 0;
+}
+.index-work-btn {
+  margin: 10% 0 0 0;
+  background-color: #006eff;
+  color: #fff;
+}
+.index-work-btn:active {
+  background-color: #0060dd;
+}

@@ -1,0 +1,10 @@
+<!--miniprogram/pages/yunpai/addguide/addguide.wxml-->
+<view>
+
+<view class="addguide-box">
+pic
+</view>
+
+<button class="addguide-btn" bindtap="scan" type="primary">下一步</button>
+
+</view>

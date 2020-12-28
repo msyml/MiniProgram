@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/plusdevice/searchdevice/searchdevice",
+    "pages/ble/ble",
+    "pages/tabdevice/tabdevice",
+    "pages/editname/editname",
+    "pages/filterlist/filterlist",
+    "pages/verifyphone/verifyphone",
+    "pages/bindinfo/bindinfo",
+    "pages/yunpai/addguide/addguide",
+    "pages/devicelist/devicelist",
+    "pages/active/active",
+    "pages/shop/shop"
+  ],
+  "window": {
+    "backgroundColor": "#eaeaea",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "IoT 小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "设备",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "./images/search.png",
+        "selectedIconPath": "./images/search.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/me.png",
+        "selectedIconPath": "./images/me.png"
+      }
+    ]
+  }
+}

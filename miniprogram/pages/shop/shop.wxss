@@ -1,0 +1,4 @@
+/* miniprogram/pages/shop/shop.wxss */
+.shop-con {
+  height: 100%;
+}

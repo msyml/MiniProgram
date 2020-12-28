@@ -1,0 +1,19 @@
+/* miniprogram/pages/yunpai/addguide/addguide.wxss */
+.addguide-box {
+  border-radius: 12px;
+  width: 80%;
+  margin: 8%;
+  padding: 5% 2%;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+
+.addguide-btn {
+  border-radius: 10px;
+  font-size: 12px;
+  width: 120px;
+  margin: 30px auto;
+}

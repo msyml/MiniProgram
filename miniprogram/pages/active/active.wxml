@@ -1,0 +1,4 @@
+<!--miniprogram/pages/active/active.wxml-->
+<view class="uploader-text" bindtap="doScan">
+      <text>扫描</text>
+</view>

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+
+<cover-image class="logo" src="./user-unlogin.png"></cover-image>
+
+<button class="index-btn index-user-btn" data-type="user" bindtap="toAddDevice" type="primary">我是用户</button>
+
+<button class="index-btn index-work-btn" data-type="worker" bindtap="toAddDevice">我是技工/经销商</button>
+
+</view>

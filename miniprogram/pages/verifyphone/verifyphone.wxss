@@ -1,0 +1,27 @@
+/* miniprogram/pages/verifyphone/verifyphone.wxss */
+.bindinfo-box {
+  border-radius: 12px;
+  width: 80%;
+  min-height: 50px;
+  /* padding: 5% 2%; */
+  /* height: 200px; */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bindinfo-box-1 {
+  margin: 10px auto;
+}
+
+.bindinfo-box-2 {
+  margin: 10px auto;
+}
+
+.bindinfo-btn {
+  border-radius: 10px;
+  font-size: 12px;
+  width: 120px;
+  margin: 30px auto;
+}

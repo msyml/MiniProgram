@@ -1,0 +1,21 @@
+<!-- miniprogram/pages/ble/ble.wxml -->
+<text>miniprogram/pages/ble/ble.wxml</text>
+<switch checked="{{isAbleScan}}" bindchange="AllSwitch" />
+<scroll-view hidden="{{!ScanView}}" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+    <view wx:for="{{List}}" wx:for-item="item" data-deviceId="{{item.deviceId}}" data-name="{{item.name}}" data-RSSI="{{item.RSSI}}" wx:key="{{item.devicesId}}" bindtap="DevicesChoose">
+            <view wx:if="{{item.advertisServiceUUIDs.length === 2}}">
+                <view style="border: 1px solid #fff;">
+                    <view>
+                        <view>Name:{{item.name}}</view>
+                        <view>MAC:{{item.deviceId}}</view>
+                    </view>
+                    <text>RSSI:{{item.RSSI}}</text>
+                    <view>
+                    advertisData: {{item.advertisData}}
+                    advertisServiceUUIDs: {{item.advertisServiceUUIDs}}
+                    localName: {{item.localName}}
+                    </view>
+                </view>
+            </view>
+    </view>
+</scroll-view>

@@ -1,0 +1,4 @@
+<!--miniprogram/pages/shop/shop.wxml-->
+<view class="shop-con">
+  <image style="height:100vh;width: 100vw;" mode="heightFix" src="{{src}}"></image>
+</view>

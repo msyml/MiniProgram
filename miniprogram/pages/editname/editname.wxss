@@ -1,0 +1,34 @@
+/* miniprogram/pages/editname/editname.wxss */
+.editname-box {
+  text-align: center;
+}
+
+.editname-box-title {
+  font-size: 12px;
+}
+
+.editname-hint {
+  font-size: 14px;
+  margin: auto 10%;
+}
+
+.editname-next-btn {
+  border-radius: 10px;
+  font-size: 12px;
+  width: 120px;
+  margin: 30px auto;
+}
+
+.bindinfo-box {
+  border-radius: 12px;
+  width: 80%;
+  min-height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bindinfo-box-2 {
+  margin: 10px auto;
+}

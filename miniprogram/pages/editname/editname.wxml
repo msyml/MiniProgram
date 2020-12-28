@@ -1,0 +1,27 @@
+<!--miniprogram/pages/editname/editname.wxml-->
+<view class="editname-box">
+    <icon type="success" size="40"></icon>
+    <view class="editname-box-title">添加成功</view>
+</view>
+
+<view class="editname-hint">
+  修改设备名称：
+</view>
+
+<view class="bindinfo-box bindinfo-box-2">
+  <van-field
+    value="{{ sms }}"
+    center
+    clearable
+    label="设备"
+    placeholder="请输入设备名称"
+    border="{{ false }}"
+  >
+  <!-- use-button-slot -->
+    <view slot="button"
+      >1/8字</view
+    >
+  </van-field>
+</view>
+
+<button class="editname-next-btn"  type="primary">下一步</button>

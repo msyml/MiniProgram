@@ -1,0 +1,23 @@
+<!-- miniprogram/pages/filterlist/filterlist.wxml -->
+<view class="filterlist-con">
+  <view class="filterlist-box">
+    <view class="filter-top">
+      <image style="width:100px; height: 200px; background-color: #eeeeee;" mode="aspectFill" src="{{src}}"></image>
+      <view class="filterlist-name">{{devideType[0].name}}</view>
+    </view>
+    <view class="filterlist-btn" data-type="0" bindtap="confirm">激活</view>
+  </view>
+  <view class="filterlist-box">
+    <view class="filter-top">
+      <image style="width:100px; height: 200px; background-color: #eeeeee;" mode="aspectFill" src="{{src}}"></image>
+      <view class="filterlist-name">{{devideType[1].name}}</view>
+    </view>
+    <view class="filterlist-btn" data-type="1" bindtap="confirm">激活</view>
+  </view>
+</view>
+
+<button class="bindinfo-next-btn"  type="primary">下一步</button>
+
+<van-dialog id="van-dialog" />
+<van-toast id="van-toast" />
+

@@ -1,0 +1,68 @@
+/* miniprogram/pages/plusdevice/searchdevice/searchdevice.wxss */
+.searchdevice-device-box {
+  width: 70%;
+  height: 40px;
+  margin: 0 auto 10px;
+  border-radius: 12px;
+  background-color: #006EFF;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.filterlist-con {
+  display: flex;
+  justify-content: space-between;
+}
+.filterlist-box {
+  border-radius: 12px;
+  width: 100px;
+  min-height: 250px;
+  margin: 10px auto;
+  /* padding: 5% 2%; */
+  /* height: 200px; */
+  background-color: #006eff;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: flex-end;     /* 垂直居中 */
+  flex-wrap: wrap;
+}
+
+.filter-top {
+  background-color: #eeeeee;
+  border-radius: 12px;
+}
+
+.filterlist-name {
+  display: inline-block;
+  font-size: 12px;
+  height: 30px;
+  /* line-height: 18px; */
+}
+
+.filterlist-btn{
+  font-size: 12px;
+  background-color: #006eff;
+  color: #fff;
+  height: 30px;
+  width: 100%;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  bottom: 0;
+}
+.filterlist-btn:active {
+  background-color: #1b7dff;
+}
+
+.bindinfo-next-btn {
+  border-radius: 10px;
+  font-size: 12px;
+  width: 120px;
+  margin: 30px auto;
+}

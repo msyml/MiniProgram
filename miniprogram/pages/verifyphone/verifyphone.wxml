@@ -1,0 +1,30 @@
+<!--miniprogram/pages/verifyphone/verifyphone.wxml-->
+<view class="bindinfo-box bindinfo-box-1">
+  <van-field
+    value="{{ sms }}"
+    center
+    clearable
+    left-icon="phone-o"
+    placeholder="请输入手机号码"
+    border="{{ false }}"
+  >
+  </van-field>
+</view>
+
+<view class="bindinfo-box bindinfo-box-2">
+  <van-field
+    value="{{ sms }}"
+    center
+    clearable
+    left-icon="certificate"
+    placeholder="请输入短信验证码"
+    border="{{ false }}"
+    use-button-slot
+  >
+    <van-button slot="button" size="small" type="primary"
+      >发送验证码</van-button
+    >
+  </van-field>
+</view>
+
+<button class="bindinfo-btn"  type="primary">下一步</button>

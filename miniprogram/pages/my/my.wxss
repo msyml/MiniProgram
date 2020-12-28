@@ -1,0 +1,17 @@
+/* miniprogram/pages/my/my.wxss */
+.my-avatar {
+  border-radius: 100%; 
+  width: 100px;
+  height: 100px;
+  margin: 10% auto 5%;
+}
+.my-name {
+  text-align: center;
+  font-size: 4vh;
+  margin: 0 auto 5%;
+}
+.my-con {
+  border-radius: 12px;
+  margin: 5%;
+  overflow: hidden;
+}

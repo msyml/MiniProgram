@@ -1,0 +1,66 @@
+<!-- miniprogram/pages/tabdevice/tabdevice.wxml -->
+<view class="tabdevice-box">
+  <!-- title -->
+  <view class="tabdevice-deivce-name">
+    {{deviceName}}
+    <van-icon name="arrow-down" />
+  </view>
+  <!-- check -->
+  <view class="tabdevice-2">
+    <view class="tabdevice-2-0">
+      <view class="tabdevice-2-1">原水TDS</view>
+      <view class="tabdevice-2-2">检查中</view>
+      <view class="tabdevice-2-3">ppm</view>
+    </view>
+    <view class="tabdevice-line"></view>
+    <view class="tabdevice-2-0">
+      <view class="tabdevice-2-1">原水TDS</view>
+      <view class="tabdevice-2-2">检查中</view>
+      <view class="tabdevice-2-3">ppm</view>
+    </view>
+  </view>
+  <!-- progress -->
+  <view class="tabdevice-progress-box">
+    <view class="tabdevice-progress-name">①PCB复合滤芯</view>
+    <view class="tabdevice-progress">
+      <van-progress color="#00cc1e" percentage="50" stroke-width="20" />
+    </view>
+    <view class="tabdevice-progress-name">②PCB复合滤芯</view>
+    <view class="tabdevice-progress">
+      <van-progress color="#00cc1e" percentage="50" stroke-width="20" />
+    </view>
+  </view>
+</view>
+
+<!-- data -->
+<view class="tabdevice-box">
+  <view class="tabdevice-3">
+    <view class="tabdevice-3-1">
+      <view class="tabdevice-3-1-box">
+        <view class="tabdevice-3-2">今日制水量</view>
+        <view class="tabdevice-3-3">
+          查看详情
+          <van-icon name="arrow" />
+        </view>
+      </view>
+      <view class="tabdevice-3-4">
+        <view class="tabdevice-3-4-1">400</view>
+        L
+      </view>
+    </view>
+    <view class="tabdevice-line"></view>
+    <view class="tabdevice-3-1">
+      <view class="tabdevice-3-1-box">
+        <view class="tabdevice-3-2">今日平均TDS</view>
+        <view class="tabdevice-3-3">
+          查看详情
+          <van-icon name="arrow" />
+        </view>
+      </view>
+      <view class="tabdevice-3-4">
+        <view class="tabdevice-3-4-1">005</view>
+        ppm
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+<!--miniprogram/pages/bindinfo/bindinfo.wxml-->
+
+<view class="bindinfo-box">
+  <van-cell-group>
+  <van-field
+    value="{{ value }}"
+    label="姓名"
+    placeholder="请输入用户名"
+    bind:change="onChange"
+  />
+  <van-field
+    value="{{ value }}"
+    label="电话"
+    placeholder="请输入电话号码"
+    bind:change="onChange"
+  />
+  <van-field
+    value="{{ value }}"
+    label="地区"
+    placeholder="请选择地区"
+    bind:change="onChange"
+  />
+  <van-field
+    readonly
+    value="{{ address }}"
+    label="详细地址"
+    placeholder="请输入详细地址"
+    bind:change="onChange"
+    bindtap="handleAddressTap"
+  />
+
+  <van-popup position="bottom" show="{{ areaVisiable }}" bind:close="handleAddressTap">
+    <van-area value="{{ address }}" area-list="{{ areaList }}" bind:change="handleAreaChange" bind:confirm="handleAreaConfirm"	 bind:cancel="handleAddressTap"	/>
+  </van-popup>
+  
+  </van-cell-group>
+</view>
+
+<button class="bindinfo-btn" bindtap="scan" type="primary">下一步</button>

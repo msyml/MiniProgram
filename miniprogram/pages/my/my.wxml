@@ -1,0 +1,54 @@
+<!--miniprogram/pages/my/my.wxml-->
+<image 
+  class="my-avatar"
+  src="{{avatar}}"
+  mode="scaleToFill"
+></image> 
+<view class="my-name">name</view>
+
+<view class="my-con">
+  <van-cell-group>
+    <!-- 1 -->
+    <van-cell is-link link-type="navigateTo" url="/pages/ble/ble">
+      <view slot="title">
+        colorIcon
+        <van-tag type="danger">修改手机号</van-tag>
+      </view>
+    </van-cell>
+    <!-- 2 -->
+    <van-cell is-link>
+      <view slot="title">
+        colorIcon
+        <van-tag type="danger">使用帮助</van-tag>
+      </view>
+    </van-cell>
+    <!-- 3 -->
+    <van-cell is-link>
+      <view slot="title">
+        colorIcon
+        <van-tag type="danger">意见反馈</van-tag>
+      </view>
+    </van-cell>
+    <!-- 4 -->
+    <van-cell is-link>
+      <view slot="title">
+        colorIcon
+        <van-tag type="danger">客服电话</van-tag>
+      </view>
+    </van-cell>
+    <!-- 5 -->
+    <van-cell is-link>
+      <view slot="title">
+        colorIcon
+        <van-tag type="danger">在线客服</van-tag>
+      </view>
+    </van-cell>
+    <!-- 6 -->
+    <van-cell is-link>
+      <view slot="title">
+        colorIcon
+        <van-tag type="danger">关于我们</van-tag>
+      </view>
+    </van-cell>
+  </van-cell-group>
+</view>

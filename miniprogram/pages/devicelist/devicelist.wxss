@@ -1,0 +1,22 @@
+/* pages/devicelist/devicelist.wxss */
+.adddevice-box {
+  border-radius: 12px;
+  width: 86%;
+  margin: 5%;
+  padding: 5% 2%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.adddevice-division {
+  height: 100%;
+  border-left: 1px solid #c2c2c2;
+  margin: 0 10px;
+}
+.adddevice-product-con {
+
+}
+.adddevice-product {
+  
+}

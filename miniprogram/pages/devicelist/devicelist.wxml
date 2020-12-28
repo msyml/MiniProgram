@@ -1,0 +1,21 @@
+<!--pages/devicelist/devicelist.wxml-->
+<view>
+
+<view class="adddevice-box">
+  纯水机
+  <view class="adddevice-division"></view>
+  <view class="adddevice-product-con">
+    <view class="adddevice-product">1</view>
+    <view class="adddevice-product">2</view>
+  </view>
+</view>
+
+<view class="adddevice-box">
+  胶囊机
+  <view class="adddevice-division"></view>
+  <view class="adddevice-product-con">
+    <view class="adddevice-product"></view>
+  </view>
+</view>
+
+</view>
